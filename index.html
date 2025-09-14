@@ -672,7 +672,7 @@
                     
                     // Animate to new values
                     animateValue('salaryValue', currentSalary, data.salaryThisMonth, 800, (value) => {
-                        return '$' + value.toLocaleString('en-US', { 
+                        return 'Rs ' + value.toLocaleString('en-US', { 
                             minimumFractionDigits: 2,
                             maximumFractionDigits: 2 
                         });
